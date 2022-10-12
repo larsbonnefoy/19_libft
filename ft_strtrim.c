@@ -6,12 +6,11 @@
 /*   By: lbonnefo <lbonnefo@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/10 10:29:05 by lbonnefo          #+#    #+#             */
-/*   Updated: 2022/10/11 15:48:19 by lbonnefo         ###   ########.fr       */
+/*   Updated: 2022/10/12 14:35:51 by lbonnefo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 static int		ft_check_set(char c, char const *set);
 static size_t	ft_get_trim_beg(char const *s1, char const *set);
