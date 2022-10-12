@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbonnefo <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lbonnefo <lbonnefo@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/05 14:30:34 by lbonnefo          #+#    #+#             */
 /*   Updated: 2022/10/05 15:06:20 by lbonnefo         ###   ########.fr       */

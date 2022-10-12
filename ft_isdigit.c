@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbonnefo <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lbonnefo <lbonnefo@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/04 08:20:50 by lbonnefo          #+#    #+#             */
 /*   Updated: 2022/10/04 14:26:10 by lbonnefo         ###   ########.fr       */

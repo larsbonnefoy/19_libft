@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   isalpha.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbonnefo <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lbonnefo <lbonnefo@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/04 07:53:09 by lbonnefo          #+#    #+#             */
 /*   Updated: 2022/10/04 14:25:15 by lbonnefo         ###   ########.fr       */

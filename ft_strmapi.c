@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbonnefo <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lbonnefo <lbonnefo@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 17:12:43 by lbonnefo          #+#    #+#             */
 /*   Updated: 2022/10/11 15:43:57 by lbonnefo         ###   ########.fr       */

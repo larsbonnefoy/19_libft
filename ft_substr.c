@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbonnefo <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lbonnefo <lbonnefo@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/04 13:10:19 by lbonnefo          #+#    #+#             */
 /*   Updated: 2022/10/11 13:53:39 by lbonnefo         ###   ########.fr       */

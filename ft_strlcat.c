@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbonnefo <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lbonnefo <lbonnefo@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/04 16:51:51 by lbonnefo          #+#    #+#             */
-/*   Updated: 2022/10/06 08:55:31 by lbonnefo         ###   ########.fr       */
+/*   Updated: 2022/10/12 13:30:54 by lbonnefo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[desti + srci] = '\0';
 	return (desti + srclen);
 }
-
-//si dest NULL: null, si src NULL: segfault, si src && dest NULL: segfault

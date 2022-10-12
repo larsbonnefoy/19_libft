@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbonnefo <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lbonnefo <lbonnefo@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/05 15:06:30 by lbonnefo          #+#    #+#             */
-/*   Updated: 2022/10/12 12:04:23 by lbonnefo         ###   ########.fr       */
+/*   Updated: 2022/10/12 14:16:14 by lbonnefo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,12 +48,11 @@ static int	ft_create_out(int i, int sign, const char *str)
 	while (ft_isdigit(str[i]) == 1)
 	{
 		out = (out * 10) + (str[i] - 48);
+		if (out > (unsigned)LONG_MAX && sign == -1)
+			return (0);
+		else if (out > (unsigned)LONG_MAX && sign == 1)
+			return (-1);
 		i++;
 	}
-	if (out > (unsigned)LONG_MAX && sign == -1)
-		return (0);
-	else if (out > (unsigned)LONG_MAX && sign == 1)
-		return (-1);
-	else
-		return ((int)out);
+	return ((int)out);
 }
